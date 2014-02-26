@@ -1,7 +1,9 @@
+<% cache comment do %>
 <div class="comment">
   <h3>Comment <%= comment.id %>:</h3>
   <p><%= comment.body %></p>
   <div class="reply">
-    <%= render comment.replies %>
+    <%= render comment.replies  %>
   </div>
 </div>
+<% end %>

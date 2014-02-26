@@ -1,14 +1,16 @@
 source 'https://rubygems.org'
 
-gem 'rails', '~> 3.2.13'
+gem 'rails', '~> 4.0.0'
+gem 'protected_attributes'
+gem 'quiet_assets'
 
 group :production do
   gem 'pg'
 end
 
 group :assets do
-  gem 'sass-rails',   '~> 3.2.3'
-  gem 'coffee-rails', '~> 3.2.1'
+  gem 'sass-rails'
+  gem 'coffee-rails'
   gem 'uglifier', '>= 1.0.3'
 end
 
@@ -21,7 +23,7 @@ group :development, :test do
   gem 'pry-rails'
   gem 'pry-doc'
   gem 'hirb'
-  gem 'rack-mini-profiler'
+  gem 'thin'
 end
 
 group :test do

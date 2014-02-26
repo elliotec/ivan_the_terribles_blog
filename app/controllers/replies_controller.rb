@@ -1,6 +1,4 @@
 class RepliesController < ApplicationController
-  # GET /replies
-  # GET /replies.json
   def index
     @replies = Reply.all
 
