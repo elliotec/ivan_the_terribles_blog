@@ -1,9 +1,9 @@
-# My New Blog!
+#Ivan's bad blog
 
 Normally, I'd paginate to make UX better, but the scoring is based on resources on the front page so I will leave them and just cache it all. 
 [Here's the current test](https://loadimpact.com/test/view/1598636), kinda poor right now but hopefully will improve with clarification tomorrow.
 
-
+## My New Blog! (via Ivan)
 I've got a lot to say, and now I have a place to say it!!!!!
 
 Read all my amazing posts!!!!! You can load them into the app with: `rake load:blog`
